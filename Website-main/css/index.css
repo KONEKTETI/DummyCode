@@ -1,0 +1,218 @@
+.bg-primary {
+    background-color: #ad7805 !important;
+  }
+  
+  .logo{
+      border-radius: 10%;
+      max-width: 100px;
+  }
+  
+  .bg-nav {
+    background-color: #1d1d1d !important;
+  }
+  
+  .nav-active{
+    color: #fff;
+    background: #ad7805;
+  }
+   
+  #mainNav .logo-brand {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    margin-left: 20px ;
+    max-width: 47px;
+    transition: 0.3s;
+  }
+  
+  #mainNav.navbar-shrink .logo-brand {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    max-width: 50px;
+    width: 50 px;;
+  }
+  
+  #mainNav .logo-brand-kmteti {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    max-width: 30px;
+    transition: 0.3s;
+  }
+  
+  #mainNav.navbar-shrink .logo-brand-kmteti {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    max-width: 35px;
+  }
+
+#mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+}
+  #mainNav .navbar-brand {
+    color: #fff;
+    font-size: 1em;
+    transition: font-size 0.3s;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+  }
+  #mainNav .navbar-nav {
+    margin-top: 1rem;
+  }
+  #mainNav .navbar-nav li.nav-item a.nav-link {
+    color: #fff;
+  }
+  #mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #ffbf0f;
+  }
+  
+  #mainNav .navbar-nav li.nav-active a.nav-link:hover {
+    color: #ffbf0f;
+  }
+  
+  #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+    color: #ffdc7a;
+  }
+  #mainNav .navbar-nav li.nav-item a.nav-link.active {
+    color: #ffdc7a;
+  }
+  #mainNav .navbar-toggler {
+    font-size: 80%;
+    padding: 0.8rem;
+  }
+  @media (max-width: 370px) {
+    #mainNav .navbar-brand {
+      color: #fff;
+      font-size: 0.8em;
+      transition: font-size 0.3s;
+    }
+  
+    #mainNav .logo-brand {
+      margin-top: -20px;
+      margin-bottom: -20px;
+      max-width: 40px;
+      transition: 0.3s;
+    }
+    
+    #mainNav.navbar-shrink .logo-brand {
+      margin-top: -20px;
+      margin-bottom: -20px;
+      max-width: 40px;
+    }
+    
+    #mainNav .logo-brand-kmteti {
+      margin-top: -20px;
+      margin-bottom: -20px;
+      max-width: 30px;
+      transition: 0.3s;
+    }
+    
+    #mainNav.navbar-shrink .logo-brand-kmteti {
+      margin-top: -20px;
+      margin-bottom: -20px;
+      max-width: 30px;
+    }
+  
+    #mainNav .navbar-toggler {
+      font-size: 50%;
+      padding: 0.5rem;
+    }
+  
+  }
+  
+  @media (min-width: 1000px) {
+    #mainNav .navbar-brand {
+      color: #fff;
+      font-size: 1.8em;
+      transition: font-size 0.3s;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    #mainNav {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      transition: padding-top 0.3s, padding-bottom 0.3s;
+    }
+    #mainNav .navbar-brand {
+      font-size: 1.75em;
+      transition: font-size 0.3s;
+    }
+    #mainNav .navbar-nav {
+      margin-top: 0;
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+      color: #fff;
+      background: #f0bf38;
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+      color: #fff;
+      background: #f0bf38;
+    }
+  
+    #mainNav.navbar-shrink {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      font-size: 1.5em;
+    }
+  
+    #mainNav .logo-brand {
+      margin-top: -20px;
+      margin-bottom: -20px;
+      max-width: 80px;
+      transition: 0.3s;
+    }
+  
+    #mainNav.navbar-shrink .logo-brand {
+      margin-top: -20px;
+      margin-bottom: -20px;
+      max-width: 50px;
+    }
+  
+    #mainNav .logo-brand-kmteti {
+      margin-top: -20px;
+      margin-bottom: -20px;
+      max-width: 60px;
+      transition: 0.3s;
+    }
+  
+    #mainNav.navbar-shrink .logo-brand-kmteti {
+      margin-top: -20px;
+      margin-bottom: -20px;
+      max-width: 40px;
+    }
+  }
+  a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
+    background-color: #b08100!important;
+  } 
+  
+  .footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #1d1d1d;
+    color: #fff;
+  }
+  
+  .copyright {
+    background-color: #1d1d1d;
+  }
+  
+  .parallax{
+    background-image: url("https://drive.google.com/uc?id=1BuLLza4l8DZ-EtEJ5SNaycvZg_qnzhrm&export=download");
+    background-attachment: fixed;
+  }
+
+  
+  @media (min-width: 992px) {
+    .parallax {
+      background-image: url("../img/background.jpg");
+      background-attachment: fixed;
+      background-position: center;
+    }
+  }

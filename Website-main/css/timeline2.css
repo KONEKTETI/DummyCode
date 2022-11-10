@@ -1,0 +1,36 @@
+.tombol{
+	position: relative;
+	margin-top: -150px;
+	width: 404px;
+	transform: scale(1);
+	transition: 0.3s;
+}
+
+.d-flex2{
+	display: flex!important;
+	margin-left: -211.5px;
+
+}
+.tombol:hover{
+	position: relative;
+	margin-top: -150px;
+	width: 404px;
+	transform: scale(1.06);
+	transition: 0.3s;
+	margin-left: -11px;
+	margin-bottom: -8px;
+}
+
+.img-button{
+	display: block;
+	margin-bottom:165px;
+	size: auto;
+	width:150%;
+	height:10%;
+
+}
+
+.img-button:active {
+	transform: scale(0.95);
+	transition: 0.2s;
+}

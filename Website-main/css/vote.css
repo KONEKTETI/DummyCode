@@ -1,0 +1,85 @@
+.parallax{
+    background-color: white;
+  }
+  
+  .masthead {
+    padding-top: calc(5rem);
+    padding-bottom: 5rem;
+  }
+  
+  @media (min-width: 992px) {
+    .masthead {
+        padding-top: calc(6rem + 55px);
+        padding-bottom: 4rem;
+    }
+  }
+  
+  .judul h1, .judul h2{
+    color: #00587F;
+    font-weight: bold;
+  } 
+  
+  .calon-section{
+    padding-bottom: 5rem;
+  }
+  
+  .calon-img{
+    max-width: 100%;
+    transform: scale(1.2);
+    transition: 0.3s;
+  }
+  
+  .calon-img:hover{
+    transform: scale(1.4);
+    margin: -30px;
+    margin-top: 0px;
+    transition: 0.3s;
+  }
+  
+  .card{
+    background: transparent;
+    border: 0px;
+    margin-bottom: 100px;
+  }
+  
+  
+  
+  /* modal content */  
+  .modal-content{ 
+    background-color: rgb(238, 238, 238);
+  }
+  
+  
+  .calon-img-modal{
+    max-width: 300px;
+  }
+  
+  .modal-header h2{
+    color: #00587F;
+    font-weight: bold;
+  }
+  
+  .isi-model {
+    color: #00587F;
+  }
+  
+  .modal-body h2{
+    color: #00587F;
+    font-weight: bolder;
+  }
+  
+  .modal-footer{
+    margin-top: -10px;
+    padding-bottom: 25px;
+  }
+  
+  .button-vote{ 
+    background-color: #00587F;
+    color: white;
+  }
+  
+  .button-vote:hover{
+    background-color: #00A6E6;
+    color: white;
+  }
+  

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- Icon -->
+    <link rel="image_src" href="img\Logo E-lection 2_kotak item.png">
+    <!--  CSS -->
+    
+    <link rel="stylesheet" href="../libraries/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/thankyou.css">
+
+<title>Terima Kasih | KPU KMTETI 2021</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-nav text-uppercase fixed-top" id="mainNav">
+        <div class="container col-lg-11">
+            <div class="navbar-brand js-scroll-trigger">
+                <img class="logo-brand-kmteti" src="https://drive.google.com/uc?id=1IQuvPFDFJCFNckLtpqiLBuJRajsl8M0F&export=download" alt="" />
+                <img class="logo logo-brand" src="https://drive.google.com/uc?id=1n3Fsf3BNR1E4CtxvbOVeAOEOy-7JhscF&export=download" alt="" />
+            </div>
+            <a class="navbar-brand js-scroll-trigger brand-title" href="#">KPU KMTETI 2021</a>
+            <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#" onclick="logout()">Logout</a></li> 
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+    <!-- Header-->
+    <header class="masthead bg-header text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <div class="animasi" id="animasi">
+                <h4 class="terima-kasih text-uppercase mb-0">Terima Kasih</h4>
+                <h4 class="masthead-heading text-uppercase mb-0" id="nama">....</h4>
+                <h4 class="terima-kasih text-uppercase mb-0">Atas Partisipasinya dalam: </h4>
+                <img class="masthead-avatar mb-5 logo" src="https://drive.google.com/uc?id=1n3Fsf3BNR1E4CtxvbOVeAOEOy-7JhscF&export=download" alt="" />
+                <h1 class="masthead-heading text-uppercase mb-0">Pemilihan Umum</h1>
+                <p class="masthead-subheading mb-0">Ketua KMTETI 2021</p> 
+                <div class="text-center mt-4">
+                    <button class="btn btn-xl btn-outline-light countdown" id="vote">
+                        <!-- <i class="fas fa-clock mr-2" id="timer-icon"></i> -->
+                        <span id="countdown" onclick="login()">VOTE NOW</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ./Header-->
+    <!-- Copyright Section-->
+    <div class="copyright py-3 text-center text-white">
+        <div class="container"><small>© 2021. <span style="font-weight: bold;">IT KPU KMTETI</span></small></div>
+    </div>
+
+</body>
+
+<!-- firebase -->
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.0.0/firebase-database.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+
+
+<!-- Vendor JS-->
+<script src="../libraries/jquery/jquery.min.js"></script>
+<script src="../libraries/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../libraries/jquery/jquery.easing.min.js"></script>
+
+
+<!-- jqure & sweetalert -->
+<script src="../libraries/sweetalert/sweetalert.min.js"></script>
+
+<!-- custom js -->
+<script src="../js/index.js"></script>
+<script src="../js/thankyou.js"></script>
+
+
+
+</html>

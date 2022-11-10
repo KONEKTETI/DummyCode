@@ -1,0 +1,103 @@
+#nama{
+    transition: opacity 1s;
+  }
+  
+  .animasi{
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  
+  .terima-kasih{
+    font-size: 1.7rem;
+    line-height: 2.75rem;
+  }
+  
+  .masthead-avatar{
+      max-width: 200px;
+  }
+  .masthead {
+    padding-top: calc(6rem + 40px);
+    padding-bottom: 6rem;
+  }
+  .masthead .masthead-heading {
+    font-size: 2.3rem;
+    line-height: 2.75rem;
+  }
+  .masthead .masthead-subheading {
+    font-size: 1.4rem;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .masthead .masthead-avatar {
+    width: 15rem;
+  }
+  
+  @media (min-width: 992px) {
+    .masthead {
+      padding-top: calc(6rem + 40px);
+      padding-bottom: 5rem;
+    }
+    .masthead .masthead-heading {
+      font-size: 2.3rem;
+      line-height: 3.5rem;
+    }
+    .masthead .masthead-subheading {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    #mainNav {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      transition: padding-top 0.3s, padding-bottom 0.3s;
+    }
+    #mainNav .navbar-brand {
+      font-size: 1.5em;
+      transition: font-size 0.3s;
+    }
+    #mainNav .navbar-nav {
+      margin-top: 0;
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+      color: #fff;
+      background: #0099B0;
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+      color: #fff;
+      background: #0099B0;
+    }
+  
+    #mainNav.navbar-shrink {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      font-size: 1.5em;
+    }
+  
+    #mainNav .logo-brand {
+      margin-top: -20px;
+      margin-bottom: -20px;
+      max-width: 50px;
+      transition: 0.3s;
+    }
+  
+    #mainNav.navbar-shrink .logo-brand {
+      margin-top: -20px;
+      margin-bottom: -20px;
+      max-width: 50px;
+    }
+  
+    #mainNav .logo-brand-kmteti {
+      margin-top: -20px;
+      margin-bottom: -20px;
+      max-width: 40px;
+      transition: 0.3s;
+    }
+  
+    #mainNav.navbar-shrink .logo-brand-kmteti {
+      margin-top: -20px;
+      margin-bottom: -20px;
+      max-width: 40px;
+    }
+  }

@@ -1,0 +1,146 @@
+
+@media (min-width: 992px) {
+    #mainNav {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      transition: padding-top 0.3s, padding-bottom 0.3s;
+    }
+    #mainNav .navbar-brand {
+      font-size: 1.5em;
+      transition: font-size 0.3s;
+    }
+    #mainNav .navbar-nav {
+      margin-top: 0;
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+      color: #fff;
+      background: #0099B0;
+    }
+    #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+      color: #fff;
+      background: #0099B0;
+    }
+  
+    #mainNav.navbar-shrink {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    #mainNav.navbar-shrink .navbar-brand {
+      font-size: 1.5em;
+    }
+  
+    #mainNav .logo-brand {
+      margin-top: -20px;
+      margin-bottom: -20px;
+      max-width: 50px;
+      transition: 0.3s;
+    }
+  
+    #mainNav.navbar-shrink .logo-brand {
+      margin-top: -20px;
+      margin-bottom: -20px;
+      max-width: 50px;
+    }
+  
+    #mainNav .logo-brand-kmteti {
+      margin-top: -20px;
+      margin-bottom: -20px;
+      max-width: 40px;
+      transition: 0.3s;
+    }
+  
+    #mainNav.navbar-shrink .logo-brand-kmteti {
+      margin-top: -20px;
+      margin-bottom: -20px;
+      max-width: 40px;
+    }
+  }
+  
+  .form-presensi{
+      padding-top: 100px;
+  }
+  
+  .form-control {
+      display: block;
+      width: 100%;
+      height: calc(1.5em + 1rem);
+      padding: 0.375rem 0.75rem;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #495057;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 0.125rem solid #ced4da;
+      border-radius: 0.5rem;
+      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  @media (prefers-reduced-motion: reduce) {
+      .form-control {
+          transition: none;
+      }
+  }
+  
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #159a80;
+    border-color: #148f77;
+  }
+  .btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: #159a80;
+    border-color: #148f77;
+    box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
+  }
+  .btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+  }
+  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #148f77;
+    border-color: #12846e;
+  }
+  .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
+  }
+  
+  .btn-xl {
+      padding: 1rem 1.75rem;
+      font-size: 1.25rem;
+    }
+  
+  .bd-callout {
+      padding: 1.25rem;
+      margin-top: 1.25rem;
+      margin-bottom: 1.25rem;
+      border: 1px solid #eee;
+      border-left-width: .25rem;
+      border-radius: .25rem;
+      background-color: #faafad;
+  }  
+  
+  .bd-callout-info {
+      border-left-color: #d9534f;
+  }
+  
+  .peringatanVerifikasi h4{
+      margin-bottom: -20px;
+  }
+  
+  .error {
+      color: red; 
+   }
+  
+  
+  .peringatanVerifikasi {
+      margin-bottom: -20px;
+  } 
+   

@@ -1,0 +1,112 @@
+.judul{ 
+    padding-top: 100px;
+    padding-bottom: 50px;;
+}
+
+.judul h1{
+    font-weight: bold;
+}
+
+.masthead {
+  padding-top: calc(5rem);
+  padding-bottom: 5rem;
+}
+
+.masthead-heading {
+    color: black;
+}
+
+.masthead-subheading {
+    color: black;
+}
+
+/*.container {
+    color: black;
+}*/
+
+@media (min-width: 992px) {
+    .masthead {
+        padding-top: calc(6rem);
+        padding-bottom: 0rem;
+    }
+}
+
+.masthead-subheading{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about .container h1{
+    font-weight: bold;
+}
+
+.about .container p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.about-pemilu {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    transition: 0.3s;
+}
+
+.about-kpu {
+    padding-bottom: 150px;
+    transition: 0.3s;
+}
+
+.about-panitia{
+    padding-bottom: 100px;
+    transition: 0.3s;
+}
+
+@media (min-width: 992px) {
+    .about-pemilu {
+        padding-top: 200px;
+        padding-bottom: 150px;
+    }
+    
+    .about-kpu {
+        padding-bottom: 150px;
+    }
+    
+    .about-panitia{
+        padding-bottom: 200px;
+    }
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+    margin: 10px;
+}
+
+.card-body{
+    background-color: white;
+    border-radius: 20%;
+}
+
+.card-body img{
+    max-width: 100%;
+}
+
+@media (max-width: 600px) { 
+    .card-body{ 
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media (min-width: 992px) { 
+    .card {
+        border: none;
+        background-color: transparent;
+        margin: 0px;
+    }
+    .card-body{ 
+        padding: 18px;
+        margin-left: 25px;
+        margin-right: 25px; 
+    }
+}
